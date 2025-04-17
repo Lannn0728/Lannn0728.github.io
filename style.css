@@ -50,6 +50,12 @@ footer {
   left: 0;
   width: 100%;
   height: 100%;
-  z-index: -1;
+  z-index: -1; /* 確保粒子在最下面 */
   background-color: #000;
 }
+
+header, nav, section, footer {
+  position: relative;
+  z-index: 1; /* 內容蓋在粒子上面 */
+}
+
