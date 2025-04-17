@@ -38,12 +38,19 @@
 </footer>
 
 <!-- 引入粒子特效腳本 -->
-<script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
-<script>
-particlesJS.load('particles-js', 'particles.json', function() {
-  console.log('particles.js loaded');
-});
-</script>
+<body>
+  <div id="particles-js"></div> <!-- 背景粒子 -->
 
+  <header>Lan 的潮流展示站</header>
+  <nav> ... </nav>
+  <section class="carousel"> ... </section>
+  <footer> ... </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+  <script>
+    particlesJS.load('particles-js', 'particles.json', function() {
+      console.log('particles.js loaded');
+    });
+  </script>
 </body>
-</html>
+
